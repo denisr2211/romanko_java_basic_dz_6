@@ -31,8 +31,10 @@ public class Main {
 
         if (averageTeam1 > averageTeam2) {
             System.out.println("Победила команда " + team1 + " набравшая " + averageTeam1 + " очков");
-        } else {
+        } else  if (averageTeam1 < averageTeam2) {
             System.out.println("Победила команда " + team2 + " набравшая " + averageTeam2 + " очков");
+        } else {
+            System.out.println("Ничья");
         }
     }
 }

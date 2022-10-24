@@ -29,7 +29,7 @@ public class Main {
 
         double averageTeam2 = (player1Count + player2Count + player3Count + player4Count + player5Count) / 5;
 
-        if (averageTeam1 < averageTeam2) {
+        if (averageTeam1 > averageTeam2) {
             System.out.println("Победила команда " + team1 + " набравшая " + averageTeam1 + " очков");
         } else {
             System.out.println("Победила команда " + team2 + " набравшая " + averageTeam2 + " очков");
